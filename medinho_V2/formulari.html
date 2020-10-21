@@ -1,0 +1,77 @@
+<!--Paràmetres bàsic de la pàgina web-->
+
+<!DOCTYPE html>
+<html lang="ca">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Inici</title>
+    <link rel="stylesheet" href="css/estils.css">
+    
+</head>
+
+<body>
+    
+<!--La capçalera de la web-->
+
+    <header>
+        <div id="titol">
+            <h1>Medinho Clothes</h1>
+        </div>
+        
+<!--El menú de la nostra web-->
+       
+        <nav>
+            <a href="index.php">Inici</a>
+            <a href="formulari.html">Entrada Inventari</a>
+        </nav>
+
+    </header>
+    
+<!--El formulari per entrar les dades a la BD-->
+    
+    <section>
+        <div id="formulari">
+            <form action="php.php" method="post">
+                <label for="marca">Marca:</label>
+                <input type="text" name="marca" placeholder="Nom marca" required class="field">
+
+                <label for="tipus">Tipus:</label>
+                <input type="text" name="tipus" placeholder="Oversized, Normal..." required class="field">
+
+                <label for="color">Color:</label>
+                <input type="text" name="color" placeholder="color" required class="field">
+
+                <label for="preu">Preu:</label>
+                <input type="text" name="preu" placeholder="€" id="preu" size="3" required class="field">
+
+
+                <p>Selecciona la talla:</p>
+                <select name="talla" id="talla">
+                    <option value="S">S</option>
+                    <option value="M">M</option>
+                    <option value="L">L</option>
+                    <option value="XL">XL</option>
+                </select>
+                <div id="boto">
+                    <input type="submit" value="Envia">
+                    <input type="reset" name="netejar" id="netejar" value="Netejar formulari">
+                </div>
+
+            </form>
+        </div>
+    </section>
+
+
+
+<!--El peu de pàgina-->
+
+    <footer>
+        <p>Fet per Adrià Melà i Oriol Martínez</p>
+        <p>Medinho Clothes SL</p>
+    </footer>
+</body>
+
+
+</html>
+
