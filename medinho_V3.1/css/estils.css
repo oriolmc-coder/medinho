@@ -1,0 +1,179 @@
+/*Estils que afecten a tota la pàgina*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+
+}
+
+
+/*Estils que afecten al cos de la web*/
+
+body {
+    background-image: url(../img/wall.jpg)
+}
+
+
+
+
+
+/*Estils de la capçalera*/
+
+header {
+    background-color: darkviolet;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 15px;
+
+}
+
+
+/*Estils del títol de la pàgina web*/
+
+h1 {
+    color: #ff4dd2;
+    text-shadow: 2px 4px 2px #a64dff;
+    font-family: Impact;
+    padding: 5px;
+    font-size: 100px;
+}
+
+
+/*Estils del menú*/
+
+nav {
+    padding: 5px;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    background-color: darkviolet;
+
+    padding: 5px 10px;
+    margin: 5px;
+}
+
+a:hover {
+    background-color: mediumvioletred;
+    color: whitesmoke;
+}
+
+
+/*Estils del formulari*/
+
+.bfiltre{
+    margin-top: 200px;
+}
+
+#busqueda{
+    background-color: darkviolet;
+    color: white;
+    width: 90px;
+    margin-left: 100px;
+    font-size: 20px;
+}
+
+#busqueda:hover{
+    background-color: mediumvioletred;
+}
+
+#formulari {
+    margin-top: 58px;
+}
+
+form {
+    background-color: blueviolet;
+    color: white;
+    font-size: 0.80em;
+    padding: 20px;
+    width: 300px;
+    border-radius: 3px;
+    margin: auto;
+    font-family: sans-serif;
+}
+
+input,
+textarea {
+    border: 0;
+    width: 280px;
+    outline: none;
+}
+
+.field {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+input {
+    margin: 10px 0;
+}
+
+
+/*Estils dels botons del formulari*/
+
+#boto input {
+    border-radius: 3px;
+    padding: 20px 15px;
+    text-decoration: none;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.3);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+    color: white;
+    background-color: mediumvioletred;
+}
+
+#boto input:hover {
+    background-color: palevioletred;
+    cursor: pointer;
+}
+
+#boto input:active {
+    cursor: pointer;
+    background-color: #29962a;
+
+
+}
+
+
+/*Estils del formulari creat amb PHP*/
+
+.taulaindex{
+    margin: 58px auto;
+    background-color: rebeccapurple;
+    padding: 40px;
+}
+
+.taulaindex th{
+    color: white;
+    font-size: 20px;
+    background-color: mediumvioletred;
+    padding: 10px;
+    text-transform: capitalize;
+}
+
+.taulaindex td{
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+#bfiltre{
+    margin-top: 10px;
+}
+
+/*Estils del peu de pàgina*/
+
+footer {
+    background-color: mediumvioletred;
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+    margin-top: 3.9%;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
